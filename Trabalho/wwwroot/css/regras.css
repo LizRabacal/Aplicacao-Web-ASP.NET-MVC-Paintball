@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+
+#linha {
+    display: flex;
+    justify-content: center;
+}
+
+#ret_grande {
+    width: 100%;
+    background-color: white;
+    border-radius: 60px 60px 0 0;
+}
+
+#tit {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+#titulo {
+    font-family: 'antonio', sans-serif;
+    font-size: 40px;
+    margin-left: 5%;
+    color: #00FF43;
+    padding-top: 5%;
+}
+
+#linha_R {
+    width: 93%;
+    height: 2px;
+    color: #F90EE7;
+    background-color: #F90EE7;
+    margin-left: 4%;
+}
+
+#titulo_2 {
+    font-family: 'roboto', sans-serif;
+    color: #565656;
+    margin-left: 1%;
+}
+
+#texto_1 {
+    margin-left: 6%;
+    font-size: 25px;
+    font-family: 'roboto', sans-serif;
+    margin-top: 4%;
+}
+
+#texto_2 {
+    margin-left: 6%;
+    font-size: 25px;
+    font-family: 'roboto', sans-serif;
+}
+
+#texto_3 {
+    margin-left: 6%;
+    font-size: 25px;
+    font-family: 'roboto', sans-serif;
+}
+
+#text {
+    display: flex;
+}
+
+#ret_final {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin-top: 2%;
+}
+
+#logo_ret {
+    width: 29.5%;
+    margin-left: 5%;
+}
+
+.texto_ret {
+    font-family: 'Roboto';
+    width: 48%;
+    font-size: 22px;
+    color: black;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+}
+
+#logo1 {
+    width: 25%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo_ft_1 {
+    width: 30%;
+}
+
+#logo_nome_1 {
+    width: 70%;
+}
+
+#menu_simb {
+    display: none;
+}
+
+#hamburguer1 {
+    display: none;
+}
+
+
+#ft_p{
+    position: relative;
+    top: 5%;
+    width: 40%;
+    padding: 2%;
+}
+
+@media (max-width: 600px) {
+    #ft_p{
+        width: 100%;
+        position: relative;
+        top: 15%;
+        margin-left: 15%;
+    }
+
+    .menu1{
+        gap: 20px;
+    }
+
+    #texto_1{
+        font-size: 15px;
+    }
+    #texto_2{
+        font-size: 15px;
+    }
+    #texto_3{
+        font-size: 15px;
+    }
+
+    #text{
+        width: 100%;
+    }
+
+    #texs{
+        width: 60%;
+    }
+
+    #fts{
+        width: 35%;
+    }
+
+    #ft_arbusto{
+        width: 80%;
+    }
+
+    .texto_ret{
+        font-size: 12px;
+    }
+
+    .menu1 {
+        gap: 20px;
+    }
+
+    #menu_simb {
+        display: block;
+        color: white;
+        font-size: 25px;
+        font-family: 'roboto';
+    }
+
+    .menu1 {
+        display: none;
+    }
+
+    #ret_grande{
+        margin-top: 130px;
+    }
+
+    #logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        top: 0;
+        position: fixed;
+        height: 130px;
+        width: 100%;
+        background-color: black;
+    }
+
+    #logo1 {
+        width: 50%;
+    }
+
+    #hamburguer1 {
+        flex-direction: column;
+        position: fixed;
+        width: 70%;
+        height: 100%;
+        margin: 0;
+        right: 0;
+        padding: 40px 0;
+        list-style: none;
+        background-color: #00ff43;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+        transition-duration: .25s;
+    }
+
+    #home2 {
+        color: black;
+        text-decoration: none;
+        padding-left: 5%;
+        font-weight: bold;
+        list-style: none;
+        font-family: 'roboto';
+        margin: 4%;
+        margin-left: 5%;
+        border-bottom: 1px solid black;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .texto_ret {
+        font-size: 15px;
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+    #ret_final {
+        align-items: center;
+        height: auto;
+        margin-top: 5%;
+        flex-direction: column;
+        
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    #menu_simb {
+        display: block;
+        color: white;
+        font-size: 25px;
+        font-family: 'roboto';
+    }
+
+    #ft_p{
+        position: static;
+    }
+
+    .menu1 {
+        display: none;
+    }
+
+    #logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        top: 0;
+        height: 130px;
+        position: fixed;
+        width: 100%;
+        background: black;
+    }
+
+    #logo1 {
+        width: 65%;
+    }
+
+    #hamburguer1 {
+        flex-direction: column;
+        position: fixed;
+        width: 70%;
+        height: 100%;
+        margin: 0;
+        right: 0;
+        padding: 40px 0;
+        list-style: none;
+        background-color: #00ff43;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+        transition-duration: .25s;
+        border-radius: 25px 0 0 0;
+    }
+
+    #home2 {
+        color: black;
+        text-decoration: none;
+        padding-left: 5%;
+        font-weight: bold;
+        list-style: none;
+        font-family: 'roboto';
+        margin: 4%;
+        margin-left: 5%;
+        border-bottom: 1px solid black;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    #ft_1_tinta {
+        width: 20%;
+        height: auto;
+        margin-left: 8%;
+    }
+
+    #ft_2_tinta {
+        margin-left: 70%;
+        width: 25%;
+        height: auto;
+        position: static;
+    }
+
+
+    #ret_final {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo_ret {
+        width: 55%;
+        margin: 0;
+    }
+
+    .texto_ret {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .texto_ret p {
+        font-size: 20px;
+    }
+
+    footer {
+        margin-top: 10%;
+    }
+
+    #ret_grande {
+        margin-top: 130px;
+    }
+
+    #titulo {
+        padding: 3%;
+        padding-left: 6%;
+        padding-top: 5%;
+    }
+
+    #text {
+        flex-direction: column;
+    }
+
+    #ft_p {
+        width: 80%;
+    }
+
+    #texs {
+        width: 96%;
+    }
+
+    #texto_1{
+        font-size: 20px;
+        margin-top: 8%;
+    }
+
+    #texto_2 {
+        margin-top: 5%;
+        width: 92%;
+        font-size: 20px;
+    }
+
+    #texto_3 {
+        margin-top: 5%;
+        width: 92%;
+        font-size: 20px;
+    }
+}

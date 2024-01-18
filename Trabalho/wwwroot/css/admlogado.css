@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200&family=Roboto+Condensed:wght@300&family=VT323&display=swap');
+
+
+
+h2 {
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+
+.perfill {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.perfil {
+    margin-left: 10px;
+    border: 1px solid #00e600;
+    padding: 50px;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.op {
+    margin-top: 20px;
+    border-bottom: 1px solid #00e600;
+    width: 100%;
+}
+
+.op a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,72 @@
+@model Trabalho.Models.Adm
+
+<link rel="stylesheet" href="~/css/admlogado.css">
+<!-- Adicione este link na seção head do seu arquivo HTML -->
+
+
+@* <div class="tudo">
+<h2>Bem vindo, @Model.Nome!</h2>
+
+<div class="div1">
+
+
+
+
+<button>
+<a asp-controller="Cliente" asp-action="Cadastro">Cadastrar cliente</a>
+</button>
+
+<button>
+<a asp-controller="Cliente" asp-action="Listar">Visualizar clientes</a>
+</button>
+
+<button>
+<a asp-controller="Adm" asp-action="Cadastro">Cadastrar Administrador</a>
+</button>
+
+<button>
+<a asp-controller="Adm" asp-action="Editar">Editar Perfil</a>
+</button>
+
+<a asp-controller="Adm" asp-action="Deletar">Deletar conta</a>
+</div>
+
+</div> *@
+
+
+
+<div class="perfill">
+    <div class="perfil">
+        <div class="nome">
+            <h2>Bem vindo(a)!</h2>
+        </div>
+        <div class="opcoes">
+            <div class="op">
+                <a asp-controller="Cliente" asp-action="Cadastro">Cadastrar cliente</a>
+            </div>
+
+            <div class="op">
+                <a asp-controller="Cliente" asp-action="Listar">Visualizar clientes</a>
+            </div>
+
+            <div class="op">
+                <a asp-controller="Adm" asp-action="Cadastro">Cadastrar Administrador</a>
+            </div>
+
+            <div class="op">
+                <a asp-controller="Adm" asp-route-id = "@Model.Id" asp-action="Editar">Editar Perfil</a>
+            </div>
+
+            <div class="op">
+   
+                 <a asp-controller="Adm" asp-action="Deletar" asp-route-id="@Model.Id" style="color: red" onclick="return confirm('Você tem certeza de que deseja sua conta?')">Deletar conta</a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+

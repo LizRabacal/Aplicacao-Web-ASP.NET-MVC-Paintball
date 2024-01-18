@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="~/img/logo__1_-removebg-preview.png" />
+    <link rel="stylesheet" href="~/css/regras.css" asp-append-version="true" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="js/jsprincipal.js"></script>
+    <title>Paintball Candeias</title>
+</head>
+
+<body>
+    <div id="hamburguer1">
+        <a id="home2" asp-controller="Home" asp-action="Index"><span class="material-symbols-outlined">
+                home
+            </span> Inicio</a>
+        <a id="home2" asp-controller="Home" asp-action="Sobrenos"><span class="material-symbols-outlined">
+                diversity_3
+            </span>Sobre nós</a>
+        <a id="home2" asp-controller="Login" asp-action="LoginCliente"><span class="material-symbols-outlined">
+                shopping_cart
+            </span>Compre aqui</a>
+        <a id="home2" asp-controller="Home" asp-action="Regras"><span class="material-symbols-outlined">
+                gavel
+            </span>Regras</a>
+    </div>
+    <div id="ret_grande">
+        <div id="tit">
+            <h1 id="titulo">REGRAS</h1>
+            <h3 id="titulo_2">DO JOGO</h3>
+        </div>
+
+        <div id="linha">
+            <hr id="linha_R">
+        </div>
+        <div id="text">
+            <div id="texs">
+                <p id="texto_1">O objetivo do jogo é capturar a bandeira no centro do campo e levar até à base
+                    adversária.
+                    Cada jogo tem uma duração máxima variando de cinco a sete minutos.</p>
+                <p id="texto_2">O jogador é eliminado quando uma bola o atinge e estoura, em qualquer lugar do corpo ou
+                    equipamento que ele usa dentro do campo. Vencerá o jogo a equipe que conseguir agarrar e levar a
+                    bandeira até a base inimiga ou ter eliminado toda a equipe adversária.</p>
+                <p id="texto_3">Acabando o tempo limite do round, vence a equipe que tiver a bandeira, se ninguém
+                    estiver
+                    com ela, a equipe que a agarrou primeiro e se ninguém a tiver agarrado durante o jogo vence a equipe
+                    que
+                    tiver eliminado mais jogadores adversários.</p>
+            </div>
+                <img id="ft_p" src="~/img/YHHTYG.__12_-removebg-preview.png">
+        </div>
+
+    </div>
+
+    <script>
+        function hamburguer() {
+
+            var mobileMenu = document.getElementById('hamburguer1');
+            var simb = document.getElementById('menu_simb');
+
+            if (mobileMenu.style.display == 'flex') {
+                mobileMenu.style.display = 'none';
+                simb.innerHTML = "☰";
+            } else {
+                mobileMenu.style.display = 'flex';
+                simb.innerHTML = "X";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Trabalho</title>
+
+    <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+
+</head>
+
+<body>
+    <header style="background-color: black;">
+        <div id="logo">
+            <div id="logo1">
+                <img id="logo_ft_1" src="~/img/logo__1_-removebg-preview.png" width="6%" height="70px">
+                <img id="logo_nome_1" src="~/img/logo__2_-removebg-preview.png" width="13%" height="160px">
+            </div>
+            <ul class="menu1">
+                <li>
+                    <a style="color: white" asp-controller="Home" asp-action="Index">Inicio</a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="Sobrenos">Sobre nos</a>
+                </li>
+                <li>
+                    <a asp-controller="Cliente" asp-action="Cadastro">Compre aqui</a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="Regras">Regras</a>
+                </li>
+                <li>
+
+                    <a style="color: white" asp-controller="Adm" asp-action="Index">Perfil</a>
+                </li>
+                @await Component.InvokeAsync("Menu");
+
+            </ul>
+
+        </div>
+
+
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+
+    <footer>
+        <div id="ret_final">
+            <img id="logo_ret" src="~/img/logo (5).png">
+            <ul class="texto_ret">
+                <p><strong>LOCAL: </strong> AV. ANTONIO BARROS, NOVA CANDEIAS, BA 523, CANDEIAS-BA</p>
+                <br>
+                <p><strong>EMAIL: </strong>PAINTBALL.CANDEIAS@GMAIL.COM</p>
+                <br>
+                <p><strong>TELEFONE: </strong>(71) 9 0000-0000</p>
+                <br>
+                <p><strong>HORARIOS: </strong>SEXTA-FEIRA/SÁBADO/DOMINGO= 8h até 19h</p>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

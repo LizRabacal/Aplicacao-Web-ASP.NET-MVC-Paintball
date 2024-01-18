@@ -1,0 +1,115 @@
+@model List<Trabalho.Models.ClienteModel>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+<h1>Clientes Cadastrados: </h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Quantidade</th>
+            <th>Forma de Pagamento</th>
+            <th>Data</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cliente in Model)
+        {
+            <tr>
+                <td>@cliente.Id</td>
+                <td>@cliente.Nome</td>
+                <td>@cliente.Quantidade</td>
+                <td>@cliente.Forma</td>
+                <td>@cliente.Data</td>
+                <td style="background-color: transparent;"><a style="color: yellow" asp-route-id="@cliente.Id" asp-controller="Cliente"
+                        asp-action="Editar">Editar</a></td>
+
+                <td style="background-color: transparent;"><a style="color: red" onclick="return confirm('Você tem certeza de que deseja excluir este item?')" asp-route-id="@cliente.Id" asp-controller="Cliente"
+                        asp-action="Remover">Remover</a></td>
+
+
+            </tr>
+        }
+    </tbody>
+
+    <style>
+        .table {
+            color: white;
+        }
+    </style>
+
+</table>
+
+<div class="divancora">
+
+    <a asp-controller="Adm" asp-action="Index"> voltar </a>
+</div>
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid green;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin: auto;
+        font-family: 'Inter', sans-serif;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        text-align: center;
+        width: 120px;
+    }
+
+    th {
+        font-weight: bold;
+    }
+
+
+    tr:nth-child(even) {
+        background-color: transparent;
+        color: white;
+    }
+
+    tr:hover:nth-child(1n + 1) {
+        background-color: #085F63;
+        color: #fff;
+    }
+
+    .divancora a {
+        background-color: #00e600;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        width: 30%;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: bolder;
+
+    }
+
+    .divancora {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    td a {
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+    }
+</style>

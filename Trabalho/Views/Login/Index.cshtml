@@ -1,0 +1,167 @@
+@model LoginModel
+
+<link rel="stylesheet" href="~/css/indexlogin.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Antonio:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&family=VT323&display=swap"
+    rel="stylesheet">
+
+
+<div class="formlogin">
+
+    <div id="tinta">
+        <img id="T1" src="~/img/tinta 1.png">
+        <img id="T2" src="~/img/tinta 2.png">
+    </div>
+
+
+    <form asp-controller="Login" id="form" asp-action="Login" method="post">
+        <h1>Bem Vindo(a)!</h1>
+        <h2>@ViewData["LoginErrado"]</h2>
+        <label for="">Email:</label>
+        <input asp-for="email" type="text" placeholder="Digite seu email">
+        <span asp-validation-for="email" class="text-danger"></span>
+        <label for="">Senha:</label>
+        <input asp-for="senha" type="password" placeholder="Digite sua senha">
+        <span asp-validation-for="senha" class="text-danger"></span>
+        <input type="submit" value="Enviar">
+
+        <h4>Não possui uma conta? </h4> <a asp-controller="Cliente" asp-action="CadastroUsuario">Cadastre-se</a>
+
+
+    </form>
+
+    <div id="tinta">
+        <img id="T1" src="~/img/tinta 2.png">
+        <img id="T2" src="~/img/tinta 1.png">
+    </div>
+</div>
+
+
+<style>
+    #T1 {
+        width: 60%;
+    }
+
+    #T2 {
+        width: 60%;
+        margin-left: 23%;
+    }
+
+    #tinta {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        height: 27rem;
+        justify-content: space-between;
+    }
+
+    .formlogin div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 90%;
+    }
+
+    input {
+        outline: 0;
+    }
+
+    .formlogin a {
+        list-style: none;
+        text-decoration: none;
+        color: #222;
+        margin-left: 2%;
+    }
+
+    .formlogin a:hover {
+        color: rgb(39, 255, 39);
+        font-weight: bold;
+    }
+
+    h1 {
+        color: #00e600;
+        margin-bottom: 20px;
+    }
+
+    input {
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        color: red;
+
+        margin-bottom: 30px;
+        opacity: 80%;
+        font-size: 17px;
+
+    }
+
+    .formlogin {
+        width: 100%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #form {
+        font-family: 'Roboto', sans-serif;
+        padding: 50px;
+        height: 460px;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 20%;
+    }
+
+
+
+    input[type=text],
+    input[type=password] {
+
+
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.20) 14px 12px 15px;
+        padding: 10px 5px 5px;
+        background-color: white;
+        border-radius: 4px;
+        margin-top: 10px;
+        transition: all 0.3s ease;
+        border: 1px solid #e2dcdc;
+
+    }
+
+    label {
+        position: relative;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    input::placeholder {
+        font-size: 15px;
+    }
+
+    input[type="submit"] {
+        cursor: pointer;
+        background-color: #00e600;
+        width: 100%;
+        margin-top: 10px;
+        color: white;
+        border: none;
+        font-family: 'Roboto', sans-serif;
+        height: 35px;
+        font-weight: 900;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 10px 15px -2px;
+    }
+
+    input[type="submit"]:hover{
+        background-color: #0e910e;
+    }
+</style>

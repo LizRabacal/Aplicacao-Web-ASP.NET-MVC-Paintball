@@ -1,0 +1,44 @@
+@Model UsuarioModel
+
+@if(@Model != null){
+
+
+<link rel="stylesheet" href="~/css/admlogado.css">
+
+
+
+<div class="perfill">
+    <div class="perfil">
+        <div class="nome">
+            <h2>Bem vindo(a), @Model.Nome!</h2>
+        </div>
+        <div class="opcoes">
+            <div class="op">
+                <a asp-controller="Cliente" asp-action="Cadastro">Agendamento</a>
+            </div>
+
+           
+
+            <div class="op">
+                <a  asp-controller="Cliente" asp-action="ListarPorId">Meus Agendamentos</a>
+            </div>
+            <div class="op">
+                <a  asp-controller="Cliente" asp-route-id = "@Model.Id" asp-action="EditarUsuario">Editar perfil</a>
+            </div>
+ <div class="op">
+                <a asp-route-id = "@Model.Id" asp-controller="Cliente" onclick="return confirm('Você tem certeza de que deseja excluir sua conta?')" style="color: red" asp-action="DeletarUsuario">Deletar conta</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+}

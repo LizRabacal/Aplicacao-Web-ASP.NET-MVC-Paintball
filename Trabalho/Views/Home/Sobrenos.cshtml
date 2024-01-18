@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/logo__1_-removebg-preview.png" />
+    <link rel="stylesheet" href="css/csssobrenos.css">
+    <script src="js/jscompreaqui.js"></script>
+    <link rel="stylesheet" href="~/css/sobrenos.css" asp-append-version="true" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <title>Paintball Candeias</title>
+</head>
+
+<body>
+    <div id="hamburguer1">
+        <a id="home2" href="htmlprincipal.html"><span class="material-symbols-outlined">
+                home
+            </span> Inicio</a>
+        <a id="home2" href="htmlsobrenos.html"><span class="material-symbols-outlined">
+                diversity_3
+            </span>Sobre nós</a>
+        <a id="home2" href="htmlcompreaqui.html"><span class="material-symbols-outlined">
+                shopping_cart
+            </span>Compre aqui</a>
+        <a id="home2" href="htmlagenda.html"><span class="material-symbols-outlined">
+                calendar_month
+            </span>Agenda</a>
+        <a id="home2" href="htmlregras.html"><span class="material-symbols-outlined">
+                gavel
+            </span>Regras</a>
+    </div>
+
+    <div id="ret_grande">
+
+        <h1 id="titulo">SOBRE NOS</h1>
+
+        <div id="linha">
+            <hr id="linha_CA">
+        </div>
+        <div id="princi">
+            <div id="text">
+                <ul class="texto_QS">
+                    <p>Somos uma empresa iniciada no ano de 2023 na cidade de Candeias-BA, feita para entregar lazer aos
+                        nossos clientes.</p>
+                    <br>
+                    <p>Somos uma empresa justa e fiel aos nossos clientes e seguimos proporcionando boas memórias e
+                        divertimento a todos dispostos a ir ao nosso local.</p>
+                </ul>
+            </div>
+
+            <div id="img">
+                <img src="~/img/ft1.png" width="60%">
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script>
+        function hamburguer() {
+
+            var mobileMenu = document.getElementById('hamburguer1');
+            var simb = document.getElementById('menu_simb');
+
+            if (mobileMenu.style.display == 'flex') {
+                mobileMenu.style.display = 'none';
+                simb.innerHTML = "☰";
+            } else {
+                mobileMenu.style.display = 'flex';
+                simb.innerHTML = "X";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+@model Adm
+
+<link rel="stylesheet" href="~/css/cad.css">
+
+<body>
+
+<div class="tudo">
+    <div class="ret">
+
+        <form asp-controller="Cliente" id="form" asp-action="CadastroUsuario" method="post">
+
+            <h1>Cadastro Usuário</h1>
+
+                <input asp-for="Nome" autocomplete="off" placeholder="Digite o seu nome  " required />
+             
+           
+                <input asp-for="Celular" autocomplete="off" placeholder="Digite o seu celular  "required />
+            
+             
+        
+                <input asp-for="email" autocomplete="off" placeholder="Digite o seu email  "required />
+             
+         
+                <input type="password" asp-for="senha" placeholder="Digite a sua senha  " autocomplete="off" required />
+          
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </div>
+
+    <div class="retmenor">
+
+    </div>
+
+</div>
+
+</body>

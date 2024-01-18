@@ -1,0 +1,82 @@
+@model ClienteModel
+
+<link rel="stylesheet" href="~/css/cadcli.css">
+
+<form id="ret_grande" asp-controller="Cliente" asp-action="Cadastro">
+
+        <h1 id="titulo">COMPRE AQUI</h1>
+        <div id="linha">
+            <hr id="linha_CA">
+        </div>
+        <div id="nome">
+            <h2 id="nome1">Nome completo:</h2>
+            <input asp-for="Nome" id="botao_nome" type="text">
+        </div>
+        <div id="data">
+            <h2 id="data1">Data:</h2>
+            <select asp-for="Data" id="datas">
+                <option value="ds">DATAS</option>
+                <option value="05/07">05/07</option>
+                <option value="06/07">06/07</option>
+                <option value="07/07">07/07</option>
+                <option value="12/07">12/07</option>
+                <option value="13/07">13/07</option>
+                <option value="14/07">14/07</option>
+                <option value="19/07">19/07</option>
+                <option value="20/07">20/07</option>
+                <option value="21/07">21/07</option>
+                <option value="26/07">26/07</option>
+                <option value="27/07">27/07</option>
+                <option value="28/07">28/07</option>
+            </select>
+        </div>
+
+        <div id="quanti">
+            <h2 id="quant_pess">Quantidade de pessoas:</h2>
+            <select asp-for="Quantidade" id="quantidade">
+                <option value="quanti">QUANTIDADE</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+        </div>
+
+        <div id="pag">
+            <h2 id="pagamento">Forma de pagamento:</h2>
+            <select asp-for="Forma" id="forma_pagamento">
+                <option value="paga">FORMA DE PAGAMENTO</option>
+                <option value="Pix">Pix</option>
+                <option value="Boleto de pagamento">Boleto de pagamento</option>
+                <option value="Cartão de crédito">Cartão de crédito</option>
+                <option value="Cartão de débito">Cartão de débito</option>
+            </select>
+        </div>
+
+        <input asp-for="UsuarioId" type="hidden" value="@ViewData["UsuarioId"]" />
+
+        <button id="bot_enviar" type="submit">Enviar</button>
+    </form>
+
+
+<style>
+    #bot_enviar{
+        position: relative;
+        bottom: 50px;
+    }
+</style>

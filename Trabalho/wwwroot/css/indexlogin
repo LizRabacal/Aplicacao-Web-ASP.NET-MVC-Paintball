@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200&family=Roboto+Condensed:wght@300&family=VT323&display=swap');
+
+h2 {
+    margin-left: 10px;
+    color: red;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.formlogin{
+    background-color: aqua;
+}

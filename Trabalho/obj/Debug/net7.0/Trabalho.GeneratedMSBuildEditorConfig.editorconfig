@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Trabalho
+build_property.RootNamespace = Trabalho
+build_property.ProjectDir = C:\Users\lizra\OneDrive\Área de Trabalho\TrabalhoPraEnviar\trabalho\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\lizra\OneDrive\Área de Trabalho\TrabalhoPraEnviar\trabalho
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Adm/Cadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtXENhZGFzdHJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Adm/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Adm/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Adm/Inicio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtXEluaWNpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Adm/PerfilUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtXFBlcmZpbFVzdWFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Cliente/Cadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDYWRhc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Cliente/CadastroUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDYWRhc3Ryb1VzdWFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Cliente/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Cliente/EditarUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0YXJVc3VhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Cliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Cliente/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxMaXN0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Cliente/ListarPorId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxMaXN0YXJQb3JJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Home/Regras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdyYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Home/Sobrenos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZW5vcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Shared/Components/Menu/default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudVxkZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Shared/Components/ViewAdmLogado/default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVmlld0FkbUxvZ2Fkb1xkZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lizra/OneDrive/Área de Trabalho/TrabalhoPraEnviar/trabalho/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-e2bfwzb94r

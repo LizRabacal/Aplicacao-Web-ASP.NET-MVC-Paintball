@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200&family=Roboto+Condensed:wght@300&family=VT323&display=swap');
+
+#form label {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 10px;
+
+}
+
+.ret {
+    margin-top: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 30px;
+    border-radius: 50px;
+    background-color: white;
+
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    appearance: none;
+    border: .2em solid #00e600;
+    background: #d2fcd2;
+    padding: .65em 1.5em;
+
+    color: #00e600;
+    border-radius: 2em;
+    transition: 1s;
+
+}
+
+input[type=submit]:hover {
+    background: #00e600;
+    color: #fff;
+}
+
+input[type=text],
+input[type=password] {
+
+    font-size: 18px;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    padding: 20px 5px 5px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+
+}
+
+input:focus,
+input:valid {
+    transform: translateY(-10%);
+}
+
+h1{
+    color: #00e600;
+    width: 85%;
+}

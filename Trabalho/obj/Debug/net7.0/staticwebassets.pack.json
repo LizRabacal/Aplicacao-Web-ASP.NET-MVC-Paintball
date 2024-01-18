@@ -1,0 +1,357 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Trabalho.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Trabalho.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\css\\admlogado.css",
+      "PackagePath": "staticwebassets\\css\\admlogado.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\css\\cad.css",
+      "PackagePath": "staticwebassets\\css\\cad.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\css\\cadcli.css",
+      "PackagePath": "staticwebassets\\css\\cadcli.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\css\\indexlogin",
+      "PackagePath": "staticwebassets\\css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\css\\principal.css",
+      "PackagePath": "staticwebassets\\css\\principal.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\css\\regras.css",
+      "PackagePath": "staticwebassets\\css\\regras.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\css\\sobrenos.css",
+      "PackagePath": "staticwebassets\\css\\sobrenos.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\img\\YHHTYG.__11_-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\YHHTYG.__11_-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\img\\YHHTYG.__12_-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\YHHTYG.__12_-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\img\\agenda_fevereiro.png",
+      "PackagePath": "staticwebassets\\img\\agenda_fevereiro.png"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\img\\agenda_janeiro.png",
+      "PackagePath": "staticwebassets\\img\\agenda_janeiro.png"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\img\\equipamento.png",
+      "PackagePath": "staticwebassets\\img\\equipamento.png"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\img\\ft principal.png",
+      "PackagePath": "staticwebassets\\img\\ft principal.png"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\img\\ft1.png",
+      "PackagePath": "staticwebassets\\img\\ft1.png"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\img\\ftBack.jpg",
+      "PackagePath": "staticwebassets\\img\\ftBack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\img\\horario.png",
+      "PackagePath": "staticwebassets\\img\\horario.png"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\img\\logo (5).png",
+      "PackagePath": "staticwebassets\\img\\logo (5).png"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\img\\logo__1_-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\logo__1_-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\img\\logo__2_-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\logo__2_-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\img\\tinta 1.png",
+      "PackagePath": "staticwebassets\\img\\tinta 1.png"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\img\\tinta 2.png",
+      "PackagePath": "staticwebassets\\img\\tinta 2.png"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\img\\valores-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\valores-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lizra\\OneDrive\\Área de Trabalho\\TrabalhoPraEnviar\\trabalho\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Trabalho.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Trabalho.props",
+      "PackagePath": "build\\Trabalho.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Trabalho.props",
+      "PackagePath": "buildMultiTargeting\\Trabalho.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Trabalho.props",
+      "PackagePath": "buildTransitive\\Trabalho.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
